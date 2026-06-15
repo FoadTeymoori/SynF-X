@@ -5,11 +5,23 @@
 #define SCREEN_HEIGHT 64
 #define OLED_RESET    -1
 #define OLED_ADDRESS  0x3C
+#include <Servo.h>
+   
+   Servo servo1;
+   Servo servo2;
+   Servo servo3;
+   Servo servo4;
+   Servo servo5;
 
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 void setup() {
 
+    servo1.attach(3);
+    servo2.attach(4);
+    servo3.attach(5);
+    servo4.attach(6);
+    servo5.attach(7);
     pinMode(2, OUTPUT);
     pinMode(8, OUTPUT);
     pinMode(9, OUTPUT);
@@ -163,6 +175,28 @@ void loop() {
   drawLeftPanel();
   display.display();
 
+ servo1.write(0);
+ servo2.write(0);
+ servo3.write(0);
+ servo4.write(0);
+ servo5.write(0);
+  delay(2000);
+
+
+servo1.write(90);
+servo2.write(90);
+servo3.write(90);
+servo4.write(90);
+servo5.write(90);
+  delay(2000);
+
+
+ servo1.write(180);
+ servo2.write(180);
+ servo3.write(180);
+ servo4.write(180);
+ servo5.write(180);
+  delay(2000);
 
 }
 // ════════════════════════════════════════════════════════
