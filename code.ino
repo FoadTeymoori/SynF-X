@@ -1,4 +1,4 @@
-//Pwver By Foad Teymoori :)
+//Power By Foad Teymoori :)
 
 #include <Wire.h>
 #include <Adafruit_GFX.h>
