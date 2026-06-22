@@ -1,5 +1,3 @@
-//Power By Foad Teymoori :)
-
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -7,6 +5,7 @@
 #define SCREEN_HEIGHT 64
 #define OLED_RESET    -1
 #define OLED_ADDRESS  0x3C
+	
 #include <Servo.h>
    
    Servo servo1;
@@ -33,33 +32,43 @@ void setup() {
 
   if (!display.begin(SSD1306_SWITCHCAPVCC, OLED_ADDRESS)) {
     while (true);
+
   }
   drawLeftPanel();
   display.clearDisplay();
   display.display();
   drawLoading();
 
-  digitalWrite(8, HIGH);
+ servo1.write(0);
+ servo2.write(0);
+ servo3.write(0);
+ servo4.write(0);
+ servo5.write(0);
+  delay(2000);
+
+  
+  digitalWrite(8, HIGH);  servo1.write(180);
   delay(500);  
-  digitalWrite(9, HIGH);
+  digitalWrite(9, HIGH);   servo2.write(190);
   delay(500);  
-  digitalWrite(10, HIGH);
-  delay(500);  
-  digitalWrite(11, HIGH);
+  digitalWrite(10, HIGH);  servo3.write(190);
   delay(500); 
-  digitalWrite(12, HIGH);
+  digitalWrite(11, HIGH);  servo4.write(190);
+  delay(500);
+  digitalWrite(12, HIGH);  servo5.write(190);
   delay(500); 
 
-  digitalWrite(8, LOW); 
+  digitalWrite(8, LOW); servo1.write(0);
   delay(500);  
-  digitalWrite(9, LOW); 
+  digitalWrite(9, LOW); servo2.write(0);
   delay(500);  
-  digitalWrite(10, LOW); 
+  digitalWrite(10, LOW);   servo3.write(0);
   delay(500);  
-  digitalWrite(11,LOW); 
+  digitalWrite(11,LOW);  servo4.write(0);
   delay(500); 
-  digitalWrite(12, LOW); 
+  digitalWrite(12, LOW);  servo5.write(0);
   delay(500); 
+
 ////////////////////فاز دوم ال ای دی 
    tone(2,50);
   digitalWrite(8, HIGH);
@@ -177,28 +186,7 @@ void loop() {
   drawLeftPanel();
   display.display();
 
- servo1.write(0);
- servo2.write(0);
- servo3.write(0);
- servo4.write(0);
- servo5.write(0);
-  delay(2000);
 
-
-servo1.write(90);
-servo2.write(90);
-servo3.write(90);
-servo4.write(90);
-servo5.write(90);
-  delay(2000);
-
-
- servo1.write(180);
- servo2.write(180);
- servo3.write(180);
- servo4.write(180);
- servo5.write(180);
-  delay(2000);
 
 }
 // ════════════════════════════════════════════════════════
