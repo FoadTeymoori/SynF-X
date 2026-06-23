@@ -10,10 +10,9 @@
 <p align="center">
   <strong>🦾 NEURAL-CONTROLLED BIONIC PROSTHETIC HAND</strong>
   <br/>
-  <em>تبدیل سیگنال‌های دهشی به شرکت واقعی</em>
+  <em>تبدیل افکار به حرکت<em>
   <br/>
-  <em>Mind → Signal → Motion</em>
-</p>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square" alt="Status"/>
