@@ -1,17 +1,16 @@
 <h1 align="center">
   <img src="https://img.shields.io/badge/SynF%20%2D%20X-Smart%20Prosthetic-blue?style=for-the-badge&logo=robot" alt="SynF-X">
   <br>
-  🦾 SynF-X // Nova ⚡
+  🦾 SynF-X // Nova 💫
 </h1>
 
 <p align="center">
-  <strong>دستکش هوشمند بر پایه تکنولوژی عصبی برای بازیابی کارکرد اندام‌های از‌دست‌رفته</strong>
+  <strong>دست هوشمند بر پایه تکنولوژی عصبی برای بازیابی کارکرد اندام‌های از‌دست‌رفته</strong>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square" alt="Status">
   <img src="https://img.shields.io/badge/Progress-70%25-brightgreen?style=flat-square" alt="Progress">
-  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
   <img src="https://img.shields.io/badge/Made%20with-❤️-red?style=flat-square" alt="Made with Love">
 </p>
 
@@ -49,7 +48,7 @@
 - منبع تغذیه بهینه‌شده
 
 ### 2️⃣ **بخش مکانیکی** ✅
-- ساختار دستکش با کابل‌های محرک
+- ساختار دست با کابل‌های محرک
 - موتورهای دقیق برای کنترل انگشتان
 - نمونه‌سازی سازنده (3D Printing)
 - یاتاقان‌های استحکام‌بخش
