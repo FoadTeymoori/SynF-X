@@ -13,15 +13,14 @@
   </a>
 </h1>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square" alt="Status"/>
-  <img src="https://img.shields.io/badge/Language-C%2B%2B-00599C?style=flat-square&logo=c%2B%2B" alt="Language"/>
-  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License"/>
-</p>
+<div align="center">
+<img width="700" height="400" alt="photo_2026-06-20_03-14-30" src="https://github.com/user-attachments/assets/7cee3d10-7606-4512-80c6-15a0f4881696" />
+</div>
+
 
 ---
 
-## 📋 About Project
+## 📋 About Project // درباره پروژه
 
 پروژه **SynF-X** یک پروژه تحقیقی و توسعه‌ای در حوزه **رباتیک‌پزشکی** و **بیوالکترونیکس** است. این سیستم از طریق تشخیص سیگنال‌های الکتریکی عضلات (EMG)، یک دست مصنوعی هوشمند را کنترل می‌کند.
 
