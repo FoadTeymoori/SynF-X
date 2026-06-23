@@ -5,7 +5,9 @@
 
 
 
-<img width="1000" height="400" alt="photo_2026-06-20_03-14-30" src="https://github.com/user-attachments/assets/d2ab18d3-26f2-4860-91b4-96e283ab85d0" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d2ab18d3-26f2-4860-91b4-96e283ab85d0" width="900">
+</p>
 
 ---
 # توضیحات 
