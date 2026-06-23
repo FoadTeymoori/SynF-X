@@ -69,15 +69,12 @@
 
 ---
 
-## 📊 Project Progress
-
-| Component | Status | Completion |
-|:---:|:---:|:---:|
-| ⚙️ **Mechanical** | ✅ Complete | 100% |
-| 💾 **Electronics** | ✅ Complete | 100% |
-| 💻 **Software** | 🔄 In Progress | 70% |
-| 🧪 **Testing** | 🔄 Testing Phase | 60% |
-
+| Component        | Status              | Progress |
+|----------------|---------------------|----------|
+| ⚙️ Mechanical   | 🟢 Complete         | ![100%](https://img.shields.io/badge/Mechanical-100%25-brightgreen) |
+| 💾 Electronics  | 🟢 Complete         | ![100%](https://img.shields.io/badge/Electronics-100%25-brightgreen) |
+| 💻 Software     | 🟡 In Progress      | ![70%](https://img.shields.io/badge/Software-70%25-yellow) |
+| 🧪 Testing      | 🟠 Testing Phase    | ![60%](https://img.shields.io/badge/Testing-60%25-orange) |
 ---
 
 
