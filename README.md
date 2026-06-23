@@ -7,12 +7,11 @@
   ✨━━ ■ Nova ■ ━━ ✨
 </h1>
 
-<p align="center">
-  <strong>🦾 NEURAL-CONTROLLED BIONIC PROSTHETIC HAND</strong>
-  <br/>
-  <em>تبدیل افکار به حرکت<em>
-  <br/>
-
+<h1 align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=تبدیل+افکار+به+حرکت;Turning+thoughts+into+action&center=true&size50">
+  </a>
+</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square" alt="Status"/>
