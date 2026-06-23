@@ -72,13 +72,25 @@
 
 ## 📊 وضعیت پروژه | Status
 
-```
-████████████░░ 70% Complete
+<p align="center">
+  <b>پیشرفت کلی: 70%</b>
+</p>
 
-✅ Electronics    → Sensors, Circuits, Testing
-✅ Mechanical     → Design, 3D Print, Assembly  
-🚧 Software       → Algorithms, Control, Calibration
-🧪 Testing        → Field Tests & Optimization
+### 📈 نوار پیشرفت لودینگ
+
+| مرحله | شاخص | درصد | وضعیت |
+|:---:|:---:|:---:|:---:|
+| ✅ Electronics | ▰▰▰▰▰▰▰▰▰▰ | 100% | ✅ تکمیل |
+| ✅ Mechanical | ▰▰▰▰▰▰▰▰▰▰ | 100% | ✅ تکمیل |
+| 🚧 Software | ▰▰▰▰▰▰▰░░░ | 70% | 🔄 در حال توسعه |
+| 🧪 Testing | ▰▰▰▰▰▰░░░░ | 60% | 🔄 نیاز به بهبود |
+
+### 🎯 خلاصه پیشرفت
+```
+⭕⭕⭕⭕⭕⭕⭕░░░░ 70% • Electronics: تکمیل ✅
+⭕⭕⭕⭕⭕⭕⭕░░░░ 70% • Mechanical: تکمیل ✅  
+⭕⭕⭕⭕⭕⭕⭕░░░░ 70% • Software: در حال توسعه 🚧
+⭕⭕⭕⭕⭕⭕░░░░░ 60% • Testing: بهبود مورد نیاز 🧪
 ```
 
 ---
