@@ -1,208 +1,43 @@
-<h1 align="center">
-  <img src="https://img.shields.io/badge/SynF%20%2D%20X-Smart%20Prosthetic%20Hand-blue?style=for-the-badge&logo=robot" alt="SynF-X">
-  <br>
-  🦾 SynF-X // Nova 💫
-</h1>
 
-<p align="center">
-  <strong>دست هوشمند کنترل‌شده با سیگنال عصبی | Neural-Controlled Smart Prosthetic Hand</strong>
-  <br/>
-  <a href="https://t.me/FoadTeymoori"><img src="https://img.shields.io/badge/📱%20Telegram-FoadTeymoori-0088cc?style=flat-square" alt="Telegram"></a>
-  <a href="https://github.com/FoadTeymoori"><img src="https://img.shields.io/badge/🐙%20GitHub-FoadTeymoori-000000?style=flat-square" alt="GitHub"></a>
-</p>
+<h1 align="center">SynF-X🦾  //  Nova ⚡  </h1>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square" alt="Status">
-  <img src="https://img.shields.io/badge/Progress-70%25-brightgreen?style=flat-square" alt="Progress">
-  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="License">
-</p>
+
+
+
+
+<img width="1000" height="400" alt="photo_2026-06-20_03-14-30" src="https://github.com/user-attachments/assets/d2ab18d3-26f2-4860-91b4-96e283ab85d0" />
+
+---
+# توضیحات 
+
+پروژه SynF-X (دست مصنوعی هوشمند) یک پروژه شخصی هست است و به دنبال کمک به افرادی که قطع عضو هست تا دوباره بتونن کار های روز مره رو انجام بدن (تبدیل افکار به حرکت)
+این پروژه دارای سه بخش الکترونیک برنامه نویسی و مکانیک هست
 
 ---
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/d2ab18d3-26f2-4860-91b4-96e283ab85d0" width="700" alt="SynF-X Prototype">
-</p>
 
-## ⚡ سریع شروع کنید | Quick Features
+-    - [x] Solid
+-    - [x] Electronik
+-    - [ ] Code (کامل نیست)
+-    - [ ] Teast (هنوز نقص داره)
+ 
 
-| ✨ | 🧠 | 💪 |
-|---|---|---|
-| **کنترل دقیق** | **تشخیص سیگنال عصبی** | **حرکت طبیعی** |
-| Precise Control | EMG Signal Detection | Natural Movement |
+Progress: ███████░░ 70%
 
----
-
-## 🏗️ معماری | Architecture
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/a9272998-e404-43db-af71-3851c22303b7" width="500" alt="Circuit">
-</p>
-
-```
-┌─────────────────────────────────┐
-│   عضلات باقی‌مانده (Muscles)      │
-│   ↓                             │
-│   سنسور EMG                     │
-│   ↓                             │
-│   Arduino UNO R4 WiFi           │
-│   ↓                             │
-│   الگوریتم تشخیص                │
-│   ↓                             │
-│   سرو موتورها (Servo Motors)    │
-│   ↓                             │
-│   🦾 دست حرکت می‌کند!            │
-└─────────────────────────────────┘
-```
 
 ---
 
-## 🛠️ اجزاء اصلی | Main Components
+# مدار و اتصالات       
 
-| جزء | مدل | وضعیت |
-|:---:|:---:|:---:|
-| **میکروکنترلر** | Arduino UNO R4 WiFi | ✅ |
-| **سنسور EMG** | EMG Sensor Module | ✅ |
-| **موتور** | Servo MG90S (x6) | ✅ |
-| **نمایشگر** | OLED 0.96" | ✅ |
-| **تغذیه** | 5V USB | ✅ |
 
-**تکنولوژی:** Arduino • C++ • Solidworks • Proteus
+<img width="250" height="250" alt="Screenshot 2026-06-12 021824" src="https://github.com/user-attachments/assets/a9272998-e404-43db-af71-3851c22303b7" />
+
 
 ---
-
-## 📊 وضعیت پروژه | Status
-
-```
-████████████░░ 70% Complete
-
-✅ Electronics    → Sensors, Circuits, Testing
-✅ Mechanical     → Design, 3D Print, Assembly  
-🚧 Software       → Algorithms, Control, Calibration
-🧪 Testing        → Field Tests & Optimization
-```
-
+ Telegram : [Click Me](https://t.me/FoadTeymoori)
 ---
 
-## 🚀 نصب سریع | Quick Setup
-
-```bash
-# Clone
-git clone https://github.com/FoadTeymoori/SynF-X.git
-cd SynF-X
-
-# Arduino IDE Setup
-# 1. Tools → Board → Arduino UNO R4 WiFi
-# 2. Sketch → Include Library → Adafruit SSD1306
-# 3. File → Open → Firmware/src/main.ino
-# 4. Upload!
-```
-
-### سخت‌افزار | Hardware Pinout
-```
-Arduino  →  Component
-5V       →  Servo VCC
-GND      →  Sensors
-D3-D8    →  Servo Signals
-A0       →  EMG Input
-D21/D22  →  OLED (I2C)
-```
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> </p>
 
 ---
-
-## 📁 فایل‌ها | Files
-
-```
-SynF-X/
-├── Hardware/
-│   ├── CAD_Models/          → 3D Models (Solidworks)
-│   ├── Circuit_Design/      → Proteus Schematics
-│   └── Videos_&_GIFs/       → Demo Videos
-│
-├── Firmware/
-│   ├── src/
-│   │   ├── main.ino
-│   │   ├── emg_signal_processing.cpp
-│   │   ├── servo_control.cpp
-│   │   └── calibration.cpp
-│   └── include/
-│
-├── Documentation/
-│   ├── EMG_Tutorial.md
-│   ├── Hardware_Setup_Guide.md
-│   ├── Calibration_Procedure.md
-│   └── Troubleshooting.md
-│
-└── README.md
-```
-
----
-
-## 💻 کد اصلی | Main Algorithm
-
-```cpp
-void loop() {
-  int emgValue = readEMGSignal();           // خواندن سیگنال
-  int processed = processEMGSignal(emgValue); // پردازش
-  int calibrated = calibrate(processed);    // کالیبراسیون
-  int movement = detectMovement(calibrated); // تشخیص
-  controlServoMotors(movement);             // کنترل
-  updateDisplay(emgValue);                  // نمایش
-}
-```
-
----
-
-## 📚 مستندات | Documentation
-
-- 📖 **[EMG سیگنال](./Documentation/EMG_Tutorial.md)** - آموزش پردازش
-- 🔧 **[نصب سخت‌افزار](./Documentation/Hardware_Setup_Guide.md)**
-- ⚙️ **[کالیبراسیون](./Documentation/Calibration_Procedure.md)**
-- 🐛 **[عیب‌یابی](./Documentation/Troubleshooting.md)**
-
----
-
-## 🎯 بهبودهای آتی | Future Plans
-
-- [ ] Machine Learning برای تشخیص دقیق‌تر
-- [ ] رابط کاربری وب
-- [ ] بازخورد حسی (Haptic Feedback)
-- [ ] کاهش مصرف انرژی
-
----
-
-## 🤝 مشارکت | Contributing
-
-1. **Fork** کنید
-2. شاخه جدید بسازید: `git checkout -b feature/name`
-3. تغییرات commit کنید: `git commit -m 'Add: feature'`
-4. Push کنید: `git push origin feature/name`
-5. PR باز کنید 🎉
-
-**نکات:** نام‌های واضح • کد‌های comment‌شده • تست شده
-
----
-
-## 📜 مجوز | License
-
-**MIT License** © 2025 Foad Teymoori
-
-```
-Permission is hereby granted, free of charge, to any person
-obtaining a copy of this software...
-[Full MIT License Text]
-```
-
----
-
-<p align="center">
-  <b>ساخت شده با ❤️ برای کمک به جامعه</b>
-  <br/>
-  <b>Made with ❤️ to Help the Community</b>
-  <br/><br/>
-  <img src="https://img.shields.io/github/stars/FoadTeymoori/SynF-X?style=social" alt="Stars">
-  <img src="https://img.shields.io/github/forks/FoadTeymoori/SynF-X?style=social" alt="Forks">
-</p>
-
----
-
-**Last Updated:** June 23, 2025 | **Status:** 🚀 Under Development | **Version:** 1.2.0
