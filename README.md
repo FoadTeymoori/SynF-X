@@ -68,13 +68,11 @@
 - **Framework**: Arduino IDE
 
 ---
-
-| Component        | Status              | Progress |
-|----------------|---------------------|----------|
-| ⚙️ Mechanical   | 🟢 Complete         | ![100%](https://img.shields.io/badge/Mechanical-100%25-brightgreen) |
-| 💾 Electronics  | 🟢 Complete         | ![100%](https://img.shields.io/badge/Electronics-100%25-brightgreen) |
-| 💻 Software     | 🟡 In Progress      | ![70%](https://img.shields.io/badge/Software-70%25-yellow) |
-| 🧪 Testing      | 🟠 Testing Phase    | ![60%](https://img.shields.io/badge/Testing-60%25-orange) |
+<p align="center">
+  <img src="https://img.shields.io/badge/⚙️%20Mechanical-100%25-4caf50?style=for-the-badge" alt="Mechanical"/>
+  <img src="https://img.shields.io/badge/💾%20Electronics-100%25-2196f3?style=for-the-badge" alt="Electronics"/>
+  <img src="https://img.shields.io/badge/💻%20Software-70%25-ff9800?style=for-the-badge"
+    
 ---
 
 
