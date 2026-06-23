@@ -120,7 +120,7 @@
   <br/>
   <b>ساخت شده برای کمک به جامعه جهانی</b>
   <br/><br/>
-  <sub>© 2025 NOVA Robotics Lab • SynF-X Project</sub>
+  <sub>© 2025 NOVA Team • SynF-X Project</sub>
   <br/>
   <sub>Last Updated: June 23, 2025 | v1.0.0 | Status: 🚀 Under Development</sub>
 </p>
