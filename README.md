@@ -3,7 +3,6 @@
 </div>
 
 <h1 align="center">
-  <img width="100" src="https://img.shields.io/badge/SynF%20--X-Neural%20Prosthetic%20Hand-00d4ff?style=for-the-badge" alt="SynF-X NOVA">
   <br/>
   ✨━━ ■ Nova ■ ━━ ✨
 </h1>
@@ -46,24 +45,6 @@
   <img src="https://img.shields.io/badge/OUTPUT-Bionic%20Hand-green?style=flat-square" alt="OUTPUT"/>
 </p>
 
-```
-┌──────────────────────────────────────────────────────┐
-│                                                      │
-│  INPUT SENSORS (EMG)                                │
-│  ↓                                                   │
-│  PROCESSING (Signal Analysis & Filtering)           │
-│  ↓                                                   │
-│  CONTROL ALGORITHM (Detection & Classification)     │
-│  ↓                                                   │
-│  ACTUATION (PWM Servo Control)                      │
-│  ↓                                                   │
-│  OUTPUT (Bionic Hand Movements)                     │
-│  ↓↑                                                  │
-│  ◄──── FEEDBACK LOOP ────►                          │
-│                                                      │
-└──────────────────────────────────────────────────────┘
-```
-
 ---
 
 ## ⚙️ Components & Specifications
@@ -100,40 +81,14 @@
 
 ---
 
-## 🗺️ Project Roadmap
-
-| Phase | Milestone | Status |
-|:---:|:---|:---:|
-| **Phase 1** | Prototype Design | ✅ Done |
-| **Phase 2** | Mechanical Build | ✅ Done |
-| **Phase 3** | Electronics Integration | ✅ Done |
-| **Phase 4** | Software Development | 🔄 Active |
-| **Phase 5** | Neural Input (EMG/EEG) | ⏳ Pending |
-| **Phase 6** | AI Adaptive Control | ⏳ Planned |
-
----
-
-## 📈 Test Results (Current)
-
-| Metric | Result | Target |
-|:---:|:---:|:---:|
-| **Grip Strength** | 18.7 Kgf | 25 Kgf |
-| **Response Time** | 92 ms | < 100 ms ✅ |
-| **Accuracy** | 87% | > 90% |
-| **Power Consumption** | 1.35 A | < 2 A ✅ |
-
----
 
 ## 🛠️ Tools & Technologies
 
 <p align="center">
   <img src="https://img.shields.io/badge/Arduino-IDE-00979D?style=flat-square&logo=arduino" alt="Arduino"/>
   <img src="https://img.shields.io/badge/C%2B%2B-Language-00599C?style=flat-square&logo=cplusplus" alt="C++"/>
-  <img src="https://img.shields.io/badge/Python-Tools-3776AB?style=flat-square&logo=python" alt="Python"/>
   <img src="https://img.shields.io/badge/Solidworks-CAD-FF6B35?style=flat-square" alt="Solidworks"/>
   <img src="https://img.shields.io/badge/Proteus-Circuit-00A3E0?style=flat-square" alt="Proteus"/>
-  <img src="https://img.shields.io/badge/Git-Version%20Control-F05032?style=flat-square&logo=git" alt="Git"/>
-  <img src="https://img.shields.io/badge/VS%20Code-Editor-007ACC?style=flat-square&logo=visualstudiocode" alt="VS Code"/>
 </p>
 
 ---
@@ -203,42 +158,8 @@ cd SynF-X
 
 ---
 
-## 🧠 Core Algorithm
 
-```cpp
-// EMG Signal Processing Pipeline
-void loop() {
-  // 1️⃣ Acquire Signal
-  int raw_emg = readEMGSignal();
-  
-  // 2️⃣ Preprocess
-  int filtered = bandpassFilter(raw_emg);
-  
-  // 3️⃣ Feature Extraction
-  int rms = calculateRMS(filtered);
-  int mav = calculateMAV(filtered);
-  
-  // 4️⃣ Pattern Recognition
-  int gesture = classifyMovement(rms, mav);
-  
-  // 5️⃣ Motion Control
-  controlServoMotors(gesture);
-  
-  // 6️⃣ Feedback Display
-  updateOLEDDisplay(rms, gesture);
-}
-```
 
----
-
-## 📚 Documentation
-
-- 📖 **[EMG Signal Processing Guide](./Documentation/EMG_Guide.md)**
-- 🔧 **[Hardware Setup Instructions](./Documentation/Setup_Guide.md)**
-- ⚙️ **[Calibration Procedure](./Documentation/Calibration.md)**
-- 🐛 **[Troubleshooting & FAQ](./Documentation/Troubleshooting.md)**
-
----
 
 ## 🎯 Future Enhancements
 
@@ -252,36 +173,6 @@ void loop() {
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions! Here's how:
-
-```bash
-# 1. Fork the Repository
-git clone https://github.com/YOUR_USERNAME/SynF-X.git
-
-# 2. Create Feature Branch
-git checkout -b feature/YourFeatureName
-
-# 3. Make Changes
-# ... your code ...
-
-# 4. Commit
-git commit -m "Add: Your feature description"
-
-# 5. Push
-git push origin feature/YourFeatureName
-
-# 6. Create Pull Request
-```
-
-### Guidelines
-- ✍️ Clear, descriptive variable names
-- 💬 Commented code
-- 🧪 Tested thoroughly
-- 📖 Update documentation
-
----
 
 ## 📞 Contact & Support
 
