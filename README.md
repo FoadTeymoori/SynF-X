@@ -61,11 +61,14 @@
 - **Framework**: Arduino IDE
 
 ---
+# Until completion 
+
 <p align="center">
   <img src="https://img.shields.io/badge/⚙️%20Mechanical-100%25-4caf50?style=for-the-badge" alt="Mechanical"/>
   <img src="https://img.shields.io/badge/💾%20Electronics-100%25-2196f3?style=for-the-badge" alt="Electronics"/>
   <img src="https://img.shields.io/badge/💻%20Software-70%25-ff9800?style=for-the-badge"
-    
+
+
 ---
 
 
