@@ -75,7 +75,7 @@
 ---
 
 
-## 🛠️ Tools & Technologies
+## 🛠️ Tools 
 
 <p align="center">
   <img src="https://img.shields.io/badge/Arduino-IDE-00979D?style=flat-square&logo=arduino" alt="Arduino"/>
@@ -149,6 +149,7 @@ Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the "Software"), 
 to deal in the Software without restriction...
 ```
+
 
 ---
 
