@@ -117,7 +117,7 @@
   <a href="https://github.com/FoadTeymoori">
     <img src="https://img.shields.io/badge/GitHub-FoadTeymoori-000000?style=flat-square&logo=github" alt="GitHub"/>
   </a>
-  <a href="mailto:foad.teymoori@example.com">
+  <a href="mailto:foadteymoori@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-red?style=flat-square&logo=gmail" alt="Email"/>
   </a>
 </p>
@@ -166,7 +166,7 @@ to deal in the Software without restriction...
   <br/><br/>
   <sub>© 2025 NOVA Robotics Lab • SynF-X Project</sub>
   <br/>
-  <sub>Last Updated: June 23, 2025 | v1.3.0 | Status: 🚀 Under Development</sub>
+  <sub>Last Updated: June 23, 2025 | v1.0.0 | Status: 🚀 Under Development</sub>
 </p>
 
 ---
