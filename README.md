@@ -112,41 +112,6 @@
   </a>
 </p>
 
----
-
-## 🧬 Our Philosophy
-
-> **"We are not building a machine. We are rebuilding human capability."**
-
-This project represents the intersection of:
-- **Neuroscience** (Brain signals)
-- **Robotics** (Mechanical control)
-- **Software** (Intelligent processing)
-- **Medicine** (Patient support)
-
----
-
-## 📊 Project Statistics
-
-<p align="center">
-  <img src="https://img.shields.io/github/stars/FoadTeymoori/SynF-X?style=social" alt="Stars"/>
-  <img src="https://img.shields.io/github/forks/FoadTeymoori/SynF-X?style=social" alt="Forks"/>
-  <img src="https://img.shields.io/badge/Contributors-1-blue?style=flat-square" alt="Contributors"/>
-  <img src="https://img.shields.io/badge/Last%20Update-June%202025-brightgreen?style=flat-square" alt="Last Update"/>
-</p>
-
----
-
-## 📜 License
-
-**MIT License** © 2025 Foad Teymoori
-
-```
-Permission is hereby granted, free of charge, to any person obtaining 
-a copy of this software and associated documentation files (the "Software"), 
-to deal in the Software without restriction...
-```
-
 
 ---
 
