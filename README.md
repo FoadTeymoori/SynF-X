@@ -79,7 +79,7 @@
 ## 💡 Connections 
 
 <div align="center">
-<img width="671" height="617" alt="Screenshot 2026-06-12 021824" src="https://github.com/user-attachments/assets/ce988288-2ca4-4b9e-8c88-fe4aed518d11" />
+<img width="400" height="300" alt="Screenshot 2026-06-12 021824" src="https://github.com/user-attachments/assets/ce988288-2ca4-4b9e-8c88-fe4aed518d11" />
 </div>
 
 ## 📞 Contact & Support
