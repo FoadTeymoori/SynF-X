@@ -39,28 +39,7 @@
 
 ---
 
-## ⚙️ Components & Specifications
 
-### 🧠 Mechanical
-- **3D Printed Structure** (PLA/ABS)
-- **6 Servo Motors** (MG90S - High Torque)
-- **Flex Sensors** (Bend Detection)
-- **Griping Force**: 18.7 Kgf
-
-### 💻 Electronics
-- **Microcontroller**: Arduino UNO R4 WiFi
-- **EMG Sensor**: 3-Channel EMG Module
-- **Display**: OLED 0.96" I2C
-- **Power**: Li-Po 11.1V 2200mAh
-- **Motor Driver**: 16-Channel PWM PCA9685
-
-### 📝 Software
-- **Language**: C++
-- **Architecture**: Real-time Signal Processing
-- **Algorithm**: EMG Pattern Recognition
-- **Framework**: Arduino IDE
-
----
 # Until completion 
 
 <p align="center">
@@ -122,7 +101,7 @@
   <br/><br/>
   <sub>© 2025 NOVA Team • SynF-X Project</sub>
   <br/>
-  <sub>Last Updated: June 23, 2025 | v1.0.0 | Status: 🚀 Under Development</sub>
+  <sub>Last Updated:  2025 | v1.0.0 | Status: 🚀 Under Development</sub>
 </p>
 
 ---
