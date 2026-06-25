@@ -36,24 +36,26 @@
 ---
 
 
-## 🛠️ Tech Update — 86% Complete
+
+## 🛠️ Tech Update — 36% Complete
 
 > **45 days until next preview build** &nbsp;&nbsp;&nbsp; `Aug 9th`  
 > Last build: Jun 25th
 
 | |
 |---|
-| ![](https://progress-bar.xyz/99/?title=Mechanic+%5B196%2F197%5D&color=c94f2c&width=250&suffix=%) |
-| ![](https://progress-bar.xyz/90/?title=Solid+%5B119%2F131%5D&color=c44a26&width=250&suffix=%) |
-| ![](https://progress-bar.xyz/96/?title=Electronic+%5B84%2F87%5D&color=c9a62c&width=250&suffix=%) |
-| ![](https://progress-bar.xyz/70/?title=Code+%5B181%2F255%5D&color=3fa8a8&width=250&suffix=%) |
-| ![](https://progress-bar.xyz/30/?title=Bugs%2FIssues+%5B1%2F7%5D&color=4c8c3c&width=250&suffix=%) |
+| ![](https://progress-bar.xyz/39/?title=Code+%5B132%2F340%5D&color=3fa8a8&width=250&suffix=%) |
+| ![](https://progress-bar.xyz/11/?title=Mechanic+%5B1%2F9%5D&color=c94f2c&width=250&suffix=%) |
+| ![](https://progress-bar.xyz/0/?title=Electronic+%5B0%2F3%5D&color=c9a62c&width=250&suffix=%) |
+| ![](https://progress-bar.xyz/20/?title=Bugs%2FIssues+%5B1%2F5%5D&color=4c8c3c&width=250&suffix=%) |
+| ![](https://progress-bar.xyz/36/?title=Total+%5B136%2F380%5D&color=5a5a8a&width=250&suffix=%) |
 
-> 2 changes in last 24hrs
+> 4 changes in last 24hrs
 
 
 
- ] ادغام با هوش مصنوعی
+
+- [ ] ادغام با هوش مصنوعی
 - [ ] کنترل از راه دور و بی‌سیم
 - [ ] انگشت ششم
 - [ ] طراحی بهینه‌تر
