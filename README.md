@@ -16,11 +16,13 @@
 
 ## 📋 About Project / درباره پروژه
 
-**SynF-X** یک دست مصنوعی هوشمند است که با استفاده از سیگنال‌های عضلانی (EMG) حرکت انگشتان را کنترل می‌کند.  
-هدف این پروژه کمک به افراد دارای معلولیت اندام فوقانی از طریق فناوری مقرون‌به‌صرفه و متن‌باز است.  
-تمامی بخش‌های مکانیک، الکترونیک و نرم‌افزار توسط تیم NOVA طراحی و ساخته شده است.
+ **SynF-X** is an intelligent bionic hand that controls finger movements using electromyography (EMG) muscle signals.
+The goal of this project is to assist individuals with upper limb disabilities through affordable and open-source technology.
+All mechanical, electronic, and software components are designed and built by the NOVA team.
 
----
+**سین‌اف‌ایکس** یک دست مصنوعی هوشمند است که با استفاده از سیگنال‌های عضلانی حرکت انگشتان را کنترل می‌کند.
+هدف این پروژه کمک به افراد دارای معلولیت اندام فوقانی از طریق فناوری مقرون‌به‌صرفه و متن‌باز است.
+تمامی بخش‌های مکانیک، الکترونیک و نرم‌افزار توسط تیم نوا طراحی و ساخته شده است.
 
 <p align="center">
   <img src="https://img.shields.io/badge/INPUT-EMG%20Sensors-blue?style=flat-square" alt="INPUT"/>
@@ -53,6 +55,17 @@
 
 ---
 
+## 🗺️ Roadmap / مسیر توسعه
+- [x] طراحی مکانیکی اولیه
+- [x] طراحی مدار الکتریکی
+- [X] تست اولیه (بدون سنسور)
+- [ ] بهینه‌سازی الگوریتم کنترل
+- [ ] ادغام با هوش مصنوعی
+- [ ] تقویت یا تعویض موتورها
+- [ ] راه اندازی سنسور EMG
+
+---
+
 ## 🛠️ Tools / ابزار‌ها
 
 <p align="center">
@@ -73,17 +86,6 @@
 <p align="center">
   <sub>مدار شامل سنسورهای EMG، برد Arduino و سروو موتورها می‌باشد</sub>
 </p>
-
----
-
-## 🗺️ Roadmap / مسیر توسعه
-- [x] طراحی مکانیکی اولیه
-- [x] طراحی مدار الکتریکی
-- [X] تست اولیه (بدون سنسور)
-- [ ] بهینه‌سازی الگوریتم کنترل
-- [ ] ادغام با هوش مصنوعی
-- [ ] تقویت یا تعویض موتورها
-- [ ] راه اندازی سنسور EMG
 
 ---
 
