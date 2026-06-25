@@ -91,9 +91,6 @@
   <a href="https://github.com/FoadTeymoori">
     <img src="https://img.shields.io/badge/GitHub-FoadTeymoori-000000?style=flat-square&logo=github" alt="GitHub"/>
   </a>
-  <a href="mailto:foadteymoori@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-red?style=flat-square&logo=gmail" alt="Email"/>
-  </a>
 </p>
 
 
