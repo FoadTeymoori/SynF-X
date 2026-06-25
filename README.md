@@ -35,21 +35,32 @@
 
 ---
 
+
 ## 🛠️ Tech Update — 86% Complete
 
-> **00 days until next preview build** &nbsp;&nbsp;&nbsp; `May 31st`  
-> Last build: Mar 31st
+> **45 days until next preview build** &nbsp;&nbsp;&nbsp; `Aug 9th`  
+> Last build: Jun 25th
 
-| Category | Progress | Tasks |
-|----------|----------|-------|
- | ![99%](https://progress-bar.xyz/99/?title=Art&color=c94f2c&width=200)  196 / 197 
- | ![90%](https://progress-bar.xyz/90/?title=Posing&color=c44a26&width=200)  119 / 131 
- | ![96%](https://progress-bar.xyz/96/?title=Writing&color=c9a62c&width=200)  84 / 87 
- | ![70%](https://progress-bar.xyz/70/?title=Code&color=3fa8a8&width=200)  181 / 255 
- | ![Fixed](https://img.shields.io/badge/Fixed-0%2F0-4c8c3c?style=flat)  ✅ Fixed 
+| |
+|---|
+| ![99%](https://progress-bar.xyz/99/?title=Art&color=c94f2c&width=200) `[196/197] 99%` |
+| ![90%](https://progress-bar.xyz/90/?title=Posing&color=c44a26&width=200) `[119/131] 90%` |
+| ![96%](https://progress-bar.xyz/96/?title=Writing&color=c9a62c&width=200) `[84/87] 96%` |
+| ![70%](https://progress-bar.xyz/70/?title=Code&color=3fa8a8&width=200) `[181/255] 70%` |
+| ![30%](https://img.shields.io/badge/Bugs%2FIssues-Fixed-4c8c3c?style=flat) `[0/0] Fixed` |
 
-> 4 changes in last 24hrs
-> 
+> 2 changes in last 24hrs
+
+
+
+
+---
+
+- [ ] ادغام با هوش مصنوعی
+- [ ] کنترل از راه دور و بی‌سیم
+- [ ] انگشت ششم
+- [ ] طراحی بهینه‌تر
+- [ ] تقویت یا تعویض موتورها
 
 - [ ] ادقام با هوش مصنوعی 
 - [ ] کنترل از راه دور و بی سیم 
