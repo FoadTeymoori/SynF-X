@@ -21,8 +21,6 @@
 
 ---
 
-## 🔧 System Architecture
-
 <p align="center">
   <img src="https://img.shields.io/badge/INPUT-EMG%20Sensors-blue?style=flat-square" alt="INPUT"/>
   →
