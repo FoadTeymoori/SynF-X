@@ -4,7 +4,7 @@
 
 <h1 align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=تبدیل+افکار+به+حرکت;Turning+thoughts+into+action&center=true&size=25">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=تبدیل+افکار+به+حرکت;Turning+thoughts+into+action;V+0+.+8+.+3+-+Alpha&center=true&size=25">
   </a>
 </h1>
 
@@ -109,5 +109,5 @@ All mechanical, electronic, and software components are designed and built by th
   <br/><br/>
   <sub>© 2026 NOVA Team • SynF-X Project</sub>
   <br/>
-  <sub>Last Updated: Jun 2026 | v0.8.3-alpha | Status: 🚀 Under Development</sub>
+  <sub>Last Updated: Jun 2026 | v0.8.3 - Alpha | Status: 🚀 Under Development</sub>
 </p>
