@@ -35,13 +35,21 @@
 
 ---
 
+## 🛠️ Tech Update — 86% Complete
 
-# Until completion  /  پروسه تکمیل
+> **00 days until next preview build** &nbsp;&nbsp;&nbsp; `May 31st`  
+> Last build: Mar 31st
 
+| Category | Progress | Tasks |
+|----------|----------|-------|
+ | ![99%](https://progress-bar.xyz/99/?title=Art&color=c94f2c&width=200)  196 / 197 
+ | ![90%](https://progress-bar.xyz/90/?title=Posing&color=c44a26&width=200)  119 / 131 
+ | ![96%](https://progress-bar.xyz/96/?title=Writing&color=c9a62c&width=200)  84 / 87 
+ | ![70%](https://progress-bar.xyz/70/?title=Code&color=3fa8a8&width=200)  181 / 255 
+ | ![Fixed](https://img.shields.io/badge/Fixed-0%2F0-4c8c3c?style=flat)  ✅ Fixed 
 
-  <img src="https://img.shields.io/badge/⚙️%20Mechanical-100%25-4caf50?style=for-the-badge" alt="Mechanical"/>
-  <img src="https://img.shields.io/badge/💾%20Electronics-100%25-2196f3?style=for-the-badge" alt="Electronics"/>
-  <img src="https://img.shields.io/badge/💻%20Software-70%25-ff9800?style=for-the-badge"
+> 4 changes in last 24hrs
+> 
 
 - [ ] ادقام با هوش مصنوعی 
 - [ ] کنترل از راه دور و بی سیم 
@@ -95,3 +103,4 @@
 </p>
 
 ---
+
