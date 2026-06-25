@@ -17,9 +17,7 @@
 
 ## 📋 About Project // درباره پروژه
 
-پروژه **SynF-X** یک پروژه تحقیقی و توسعه‌ای در حوزه **رباتیک‌پزشکی** و **بیوالکترونیکس** است. این سیستم از طریق تشخیص سیگنال‌های الکتریکی عضلات (EMG)، یک دست مصنوعی هوشمند را کنترل می‌کند.
-
-**This system converts neural signals into precise robotic movements, creating a seamless connection between mind and machine.**
+پروژه *SynF-X* (دست مصنوعی) 
 
 ---
 
@@ -97,9 +95,9 @@
 ---
 
 <p align="center">
-  <b>🔥 Made with ❤️ for the Community 🔥</b>
+  <b>🔥 Made with ❤️</b>
   <br/>
-  <b>ساخت شده برای کمک به جامعه جهانی</b>
+  <b>ساخت شده برای کمک به بشریت</b>
   <br/><br/>
   <sub>© 2025 NOVA Team • SynF-X Project</sub>
   <br/>
