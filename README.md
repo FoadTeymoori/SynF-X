@@ -36,7 +36,7 @@
 ---
 
 
-# Until completion 
+# Until completion  /  پروسه تکمیل
 
 <p align="center">
   <img src="https://img.shields.io/badge/⚙️%20Mechanical-100%25-4caf50?style=for-the-badge" alt="Mechanical"/>
@@ -47,7 +47,7 @@
 ---
 
 
-## 🛠️ Tools 
+## 🛠️ Tools  /  ابزار ها 
 
 <p align="center">
   <img src="https://img.shields.io/badge/Arduino-IDE-00979D?style=flat-square&logo=arduino" alt="Arduino"/>
@@ -62,13 +62,11 @@
 
 ## 🎯 Future Enhancements
 
-- [ ] Machine Learning (Neural Network) Classification
-- [ ] Real-time Signal Visualization
-- [ ] Haptic Feedback Integration
-- [ ] Wireless Control (Bluetooth/WiFi)
-- [ ] Power Optimization
-- [ ] EEG Integration
-- [ ] Mobile App Controller
+- [ ] ادقام با هوش مصنوعی 
+- [ ] کنترل از راه دور و بی سیم 
+- [ ] انگشت ششم 
+- [ ] طراحی بهینه تر 
+- [ ] تقویت یا تعویض موتور ها
 
 ---
 
