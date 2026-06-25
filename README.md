@@ -38,10 +38,16 @@
 
 # Until completion  /  پروسه تکمیل
 
-<p align="center">
+
   <img src="https://img.shields.io/badge/⚙️%20Mechanical-100%25-4caf50?style=for-the-badge" alt="Mechanical"/>
   <img src="https://img.shields.io/badge/💾%20Electronics-100%25-2196f3?style=for-the-badge" alt="Electronics"/>
   <img src="https://img.shields.io/badge/💻%20Software-70%25-ff9800?style=for-the-badge"
+
+- [ ] ادقام با هوش مصنوعی 
+- [ ] کنترل از راه دور و بی سیم 
+- [ ] انگشت ششم 
+- [ ] طراحی بهینه تر
+- [ ] تقویت یا تعویض موتور ها
 
 
 ---
@@ -55,18 +61,6 @@
   <img src="https://img.shields.io/badge/Solidworks-CAD-FF6B35?style=flat-square" alt="Solidworks"/>
   <img src="https://img.shields.io/badge/Proteus-Circuit-00A3E0?style=flat-square" alt="Proteus"/>
 </p>
-
----
-
-
-
-## 🎯 Future Enhancements
-
-- [ ] ادقام با هوش مصنوعی 
-- [ ] کنترل از راه دور و بی سیم 
-- [ ] انگشت ششم 
-- [ ] طراحی بهینه تر 
-- [ ] تقویت یا تعویض موتور ها
 
 ---
 
