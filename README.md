@@ -35,37 +35,18 @@
 
 ---
 
-
-
-## 🛠️ Tech Update — 36% Complete
-
 > **45 days until next preview build** &nbsp;&nbsp;&nbsp; `Aug 9th`  
 > Last build: Jun 25th
 
-| |
+|🛠️ Tech Update — 89% Complete   |
 |---|
-| ![](https://progress-bar.xyz/39/?title=Code+%5B132%2F340%5D&color=3fa8a8&width=250&suffix=%) |
-| ![](https://progress-bar.xyz/11/?title=Mechanic+%5B1%2F9%5D&color=c94f2c&width=250&suffix=%) |
-| ![](https://progress-bar.xyz/0/?title=Electronic+%5B0%2F3%5D&color=c9a62c&width=250&suffix=%) |
-| ![](https://progress-bar.xyz/20/?title=Bugs%2FIssues+%5B1%2F5%5D&color=4c8c3c&width=250&suffix=%) |
-| ![](https://progress-bar.xyz/36/?title=Total+%5B136%2F380%5D&color=5a5a8a&width=250&suffix=%) |
+| ![](https://progress-bar.xyz/70/?title=Code&color=3fa8a8&width=250&suffix=%) |
+| ![](https://progress-bar.xyz/100/?title=Mechanic&color=c94f2c&width=250&suffix=%) |
+| ![](https://progress-bar.xyz/96/?title=Electronic&color=c9a62c&width=250&suffix=%) |
+| ![](https://progress-bar.xyz/25/?title=Bugs%2FIssues+%5B3%2F12%5D&color=4c8c3c&width=250&suffix=%) |
+| ![](https://progress-bar.xyz/89/?title=Total&color=5a5a8a&width=250&suffix=%) |
 
 > 4 changes in last 24hrs
-
-
-
-
-- [ ] ادغام با هوش مصنوعی
-- [ ] کنترل از راه دور و بی‌سیم
-- [ ] انگشت ششم
-- [ ] طراحی بهینه‌تر
-- [ ] تقویت یا تعویض موتورها
-
-- [ ] ادقام با هوش مصنوعی 
-- [ ] کنترل از راه دور و بی سیم 
-- [ ] انگشت ششم 
-- [ ] طراحی بهینه تر
-- [ ] تقویت یا تعویض موتور ها
 
 
 ---
