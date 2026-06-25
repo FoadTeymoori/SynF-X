@@ -34,11 +34,11 @@
 </p>
 
 ---
-
+## 🛠️ Tech Update — 89% Complete   
 > **45 days until next preview build** &nbsp;&nbsp;&nbsp; `Aug 9th`  
 > Last build: Jun 25th
 
-|🛠️ Tech Update — 89% Complete   |
+||
 |---|
 | ![](https://progress-bar.xyz/70/?title=Code&color=3fa8a8&width=250&suffix=%) |
 | ![](https://progress-bar.xyz/100/?title=Mechanic&color=c94f2c&width=250&suffix=%) |
