@@ -12,7 +12,7 @@
   <img width="700" height="400" alt="SynF-X Bionic Hand" src="https://github.com/user-attachments/assets/7cee3d10-7606-4512-80c6-15a0f4881696" />
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 📋 About Project / درباره پروژه
 
@@ -36,7 +36,7 @@ All mechanical, electronic, and software components are designed and built by th
   <img src="https://img.shields.io/badge/OUTPUT-Bionic%20Hand-green?style=flat-square" alt="OUTPUT"/>
 </p>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🛠️ Tech Update — 83% Complete
 
@@ -52,7 +52,7 @@ All mechanical, electronic, and software components are designed and built by th
 
 > 4 changes in last 24hrs
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🗺️ Roadmap / مسیر توسعه
 - [x] طراحی مکانیکی اولیه
@@ -63,7 +63,7 @@ All mechanical, electronic, and software components are designed and built by th
 - [ ] تقویت یا تعویض موتورها
 - [ ] راه اندازی سنسور EMG
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🛠️ Tools / ابزار‌ها
 
@@ -74,7 +74,7 @@ All mechanical, electronic, and software components are designed and built by th
   <img src="https://img.shields.io/badge/Proteus-Circuit-00A3E0?style=flat-square" alt="Proteus"/>
 </p>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 💡 Connections / مدار / اتصالات
 
@@ -86,7 +86,7 @@ All mechanical, electronic, and software components are designed and built by th
   <sub>مدار شامل سنسورهای EMG، برد Arduino و سروو موتورها می‌باشد</sub>
 </p>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 📞 How to Contact Us / راه ارتباطی
 
@@ -99,7 +99,11 @@ All mechanical, electronic, and software components are designed and built by th
   </a>
 </p>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+<p align="center">
+  <img src="https://count.getloli.com/get/@SynF-X" alt="Repository Views">
+</p>
 
 <p align="center">
   <b>🔥 Made with ❤️</b>
