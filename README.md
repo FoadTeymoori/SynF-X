@@ -94,9 +94,7 @@ All mechanical, electronic, and software components are designed and built by th
   <a href="https://t.me/FoadTeymoori">
     <img src="https://img.shields.io/badge/Telegram-FoadTeymoori-0088cc?style=flat-square&logo=telegram" alt="Telegram"/>
   </a>
-  <a href="https://github.com/FoadTeymoori">
-    <img src="https://img.shields.io/badge/GitHub-FoadTeymoori-000000?style=flat-square&logo=github" alt="GitHub"/>
-  </a>
+
 </p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
