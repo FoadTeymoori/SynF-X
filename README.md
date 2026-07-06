@@ -20,7 +20,7 @@
 The goal of this project is to assist individuals with upper limb disabilities through affordable and open-source technology.
 All mechanical, electronic, and software components are designed and built by the NOVA team.
 
-**سین‌اف‌ایکس** یک دست مصنوعی هوشمند است که با استفاده از سیگنال‌های عضلانی حرکت انگشتان را کنترل می‌کند.
+*سین‌اف‌ایکس* یک دست مصنوعی هوشمند است که با استفاده از سیگنال‌های عضلانی حرکت انگشتان را کنترل می‌کند.
 هدف این پروژه کمک به افراد دارای معلولیت اندام فوقانی از طریق فناوری مقرون‌به‌صرفه و متن‌باز است.
 تمامی بخش‌های مکانیک، الکترونیک و نرم‌افزار توسط تیم نوا طراحی و ساخته شده است.
 
