@@ -50,7 +50,7 @@ All mechanical, electronic, and software components are designed and built by th
 | ![](https://progress-bar.xyz/96/?title=⚡+Electronic&color=c9a62c&width=250&suffix=%) |
 | ![](https://progress-bar.xyz/33/?title=🐛+Bugs%2FIssues+%5B4%2F12%5D&color=e05c2a&width=250&suffix=%) | --- |
 
-> 2 changes in last 24hrs
+> 4 changes in last 24hrs
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
