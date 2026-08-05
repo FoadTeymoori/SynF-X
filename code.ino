@@ -1,8 +1,12 @@
-//FoadTeymoori
-
+/*
+ SynF-X  
+  Nova 
+  https://github.com/FoadTeymoori/SynF-X
+*/
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
+
 #define SCREEN_WIDTH  128
 #define SCREEN_HEIGHT 64
 #define OLED_RESET    -1
@@ -20,22 +24,30 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 void setup() {
 
-    servo1.attach(3);
-    servo2.attach(4);
-    servo3.attach(5);
-    servo4.attach(6);
-    servo5.attach(7);
+   Serial.begin(115200);
+
+     servo1.attach(3);
+     servo2.attach(4);
+     servo3.attach(5);
+     servo4.attach(6);
+     servo5.attach(7);
+
     pinMode(2, OUTPUT);
     pinMode(8, OUTPUT);
     pinMode(9, OUTPUT);
     pinMode(10, OUTPUT);
     pinMode(11, OUTPUT);
     pinMode(12, OUTPUT);
+    pinMode(A1, INPUT);
 
   if (!display.begin(SSD1306_SWITCHCAPVCC, OLED_ADDRESS)) {
     while (true);
-
   }
+
+// ════════════════════════════════════════════════════════
+//  تست های اولیه سروو و ال ای دی ها 
+// ════════════════════════════════════════════════════════
+
   drawLeftPanel();
   display.clearDisplay();
   display.display();
@@ -51,13 +63,13 @@ void setup() {
   
   digitalWrite(8, HIGH);  servo1.write(180);
   delay(500);  
-  digitalWrite(9, HIGH);   servo2.write(190);
+  digitalWrite(9, HIGH);   servo2.write(180);
   delay(500);  
-  digitalWrite(10, HIGH);  servo3.write(190);
+  digitalWrite(10, HIGH);  servo3.write(180);
   delay(500); 
-  digitalWrite(11, HIGH);  servo4.write(190);
+  digitalWrite(11, HIGH);  servo4.write(180);
   delay(500);
-  digitalWrite(12, HIGH);  servo5.write(190);
+  digitalWrite(12, HIGH);  servo5.write(180);
   delay(500); 
 
   digitalWrite(8, LOW); servo1.write(0);
@@ -71,22 +83,6 @@ void setup() {
   digitalWrite(12, LOW);  servo5.write(0);
   delay(500); 
 
-////////////////////فاز دوم ال ای دی 
-   tone(2,50);
-  digitalWrite(8, HIGH);
-  digitalWrite(9, HIGH);
-  digitalWrite(10, HIGH);
-  digitalWrite(11, HIGH);
-  digitalWrite(12, HIGH);
-   delay(200);
-
-   noTone(2);
-  digitalWrite(8, LOW);
-  digitalWrite(9, LOW);
-  digitalWrite(10, LOW);
-  digitalWrite(11, LOW);
-  digitalWrite(12, LOW);
-   delay(200);
 
    tone(2,50);
   digitalWrite(8, HIGH);
@@ -104,6 +100,21 @@ void setup() {
   digitalWrite(12, LOW);
    delay(200);
 
+   tone(2,50);
+  digitalWrite(8, HIGH);
+  digitalWrite(9, HIGH);
+  digitalWrite(10, HIGH);
+  digitalWrite(11, HIGH);
+  digitalWrite(12, HIGH);
+   delay(200);
+
+   noTone(2);
+  digitalWrite(8, LOW);
+  digitalWrite(9, LOW);
+  digitalWrite(10, LOW);
+  digitalWrite(11, LOW);
+  digitalWrite(12, LOW);
+   delay(200);
 
    tone(2,50);
   digitalWrite(8, HIGH);
@@ -184,17 +195,45 @@ void setup() {
 
 void loop() {
 
+
   display.clearDisplay();
   drawLeftPanel();
   display.display();
 
+  int emg = analogRead(A1);
 
+  Serial.println(emg);
+
+  display.clearDisplay();
+  drawLeftPanel();
+  display.display();
+
+  if (emg > 500) {
+    servo1.write(180);
+    servo2.write(180);
+    servo3.write(180);
+    servo4.write(180);
+    servo5.write(180);
+   delay(1000);
+  } else {
+    servo1.write(0);
+    servo2.write(0);
+    servo3.write(0);
+    servo4.write(0);
+    servo5.write(0);
+
+  }
+
+  delay(20);
 
 }
+
 // ════════════════════════════════════════════════════════
-//  LOADING SCREEN
+//  صفحه لودینک نمایشگر
 // ════════════════════════════════════════════════════════
+
 void drawLoading() {
+
   // پروگرس بار انیمیشن
   for (int pct = 0; pct <= 100; pct += 1) {
     display.clearDisplay();
@@ -232,7 +271,7 @@ void drawLoading() {
 
   // مکث کوتاه بعد از ۱۰۰٪
     delay(400);
-  // fade out ساده (چند فلش)
+  // چند تا چشمک
   for (int i = 0; i < 3; i++) {
     display.clearDisplay();
     display.display();
@@ -264,10 +303,11 @@ void drawLoadingStatic(int pct) {
 
 }
 
-
 void drawLeftPanel() {
 
-    // ── نوار بالا ────────────────────────────────────────────
+// ════════════════════════════════════════════════════════
+// نوار بالا
+// ════════════════════════════════════════════════════════
   display.drawRect(1, 3, 10, 6, WHITE);
   display.drawFastVLine(3, 4, 3, WHITE);
   display.drawFastVLine(5, 4, 3, WHITE);
@@ -286,8 +326,8 @@ void drawLeftPanel() {
   display.drawCircle(120, 5, 4, WHITE);
 
   display.drawFastHLine(0, 15, 128, WHITE);
-///////////////////////
-  // corner accents
+
+  // گوشه ها 
   display.drawFastHLine(0,  16, 6, WHITE);
   display.drawFastVLine(0,  16, 6, WHITE);
   display.drawFastHLine(57, 16, 6, WHITE);
@@ -296,19 +336,19 @@ void drawLeftPanel() {
   display.drawFastVLine(0,  58, 6, WHITE);
   display.drawFastHLine(57, 63, 6, WHITE);
   display.drawFastVLine(62, 58, 6, WHITE);
-////////
+
   display.setTextSize(1);
   display.setTextColor(WHITE);
   display.setCursor(12, 18);
   display.print("SynF-X");
-//////////
+
   display.setCursor(10, 30);
   display.print("N O V A");
-/////////
+
   for (int i = 0; i < 7; i++)
     display.drawPixel(5 + i*8, 40, WHITE);
 
-  // CPU chip
+  // ایکون سی پی یو 
   display.drawRect(3, 46, 9, 8, WHITE);
   display.drawRect(5, 48, 5, 4, WHITE);
   display.drawFastVLine(4,  44, 2, WHITE);
@@ -318,7 +358,7 @@ void drawLeftPanel() {
   display.drawFastVLine(7,  54, 2, WHITE);
   display.drawFastVLine(10, 54, 2, WHITE);
 
-  // signal bars
+  // ایکون سیگنال
   display.fillRect(14, 52, 2, 2, WHITE);
   display.fillRect(17, 50, 2, 4, WHITE);
   display.fillRect(20, 47, 2, 7, WHITE);
@@ -329,14 +369,14 @@ void drawLeftPanel() {
   display.drawFastVLine(30, 48, 4, WHITE);
   display.drawCircle(30, 55, 3, WHITE);
 
-  // Arduino
+  // ایکون اردوینو
   display.drawCircle(38, 50, 4, WHITE);
   display.drawCircle(43, 50, 4, WHITE);
   display.drawFastHLine(35, 50, 4, WHITE);
   display.drawFastVLine(37, 48, 4, WHITE);
   display.drawFastHLine(41, 50, 4, WHITE);
 
-  // EMG icon
+  // ایکون EMG
   display.drawRect(50, 46, 11, 8, WHITE);
   display.drawLine(51, 50, 52, 47, WHITE);
   display.drawLine(52, 47, 53, 53, WHITE);
@@ -345,8 +385,11 @@ void drawLeftPanel() {
   display.drawLine(55, 50, 59, 50, WHITE);
 
   
-  // ── پانل راست ────────────────────────────────────────────
-  // ── EMG موج ──
+// ════════════════════════════════════════════════════════
+//  پنل سمت راست
+// ════════════════════════════════════════════════════════
+
+  //  EMG موج 
   display.setCursor(67, 56);
   display.print("EMG");
   int ex[] = {66,69,71,73,75,77,80,82,84,86,89,91,93,95,98,100,102,104,107};
@@ -380,5 +423,3 @@ void drawLeftPanel() {
   display.fillCircle(111, 34, 1, WHITE);
 
 }
-
-
