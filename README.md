@@ -8,9 +8,15 @@
   </a>
 </h1>
 
-<div align="center">
-  <img width="700" height="400" alt="SynF-X Bionic Hand" src="https://github.com/user-attachments/assets/7cee3d10-7606-4512-80c6-15a0f4881696" />
-</div>
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/eed6e1b5-ef2a-459f-a20d-44164fed3cd4"
+    alt="SynF-X Robotic Hand Concept"
+    width="400"
+    height="400"
+  />
+</p>
+
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -38,31 +44,31 @@ All mechanical, electronic, and software components are designed and built by th
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-## 🛠️ Tech Update — 83% Complete
+## 🛠️ Tech Update — 100% Complete
 
-> **45 days until next preview build** &nbsp;&nbsp;&nbsp; `Aug 9th`  
-> Last build: Jun 25th, 2026
+> **Next Preview Build: After Konkur 1406** &nbsp;&nbsp;&nbsp; `September 1, 2027`  
+> Last build: Oct 28th, 2026
 
 ||
 |---|
-| ![](https://progress-bar.xyz/70/?title=💻+Code&color=3fa8a8&width=250&suffix=%) |
+| ![](https://progress-bar.xyz/100/?title=💻+Code&color=3fa8a8&width=250&suffix=%) |
 | ![](https://progress-bar.xyz/100/?title=⚙️+Mechanic&color=c94f2c&width=250&suffix=%) |
-| ![](https://progress-bar.xyz/96/?title=⚡+Electronic&color=c9a62c&width=250&suffix=%) |
-| ![](https://progress-bar.xyz/33/?title=🐛+Bugs%2FIssues+%5B4%2F12%5D&color=e05c2a&width=250&suffix=%) | --- |
+| ![](https://progress-bar.xyz/100/?title=⚡+Electronic&color=c9a62c&width=250&suffix=%) |
+| ![](https://progress-bar.xyz/100/?title=🐛+Bugs+%5B0%2F0%5D&color=2ea44f&width=250&suffix=%) |
 
-> 4 changes in last 24hrs
-
+> 0 changes in last 24hrs
+> 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🗺️ Roadmap / مسیر توسعه
-- [x] طراحی مکانیکی اولیه
-- [x] طراحی مدار الکتریکی
-- [X] تست اولیه (بدون سنسور)
-- [ ] بهینه‌سازی الگوریتم کنترل
-- [ ] ادغام با هوش مصنوعی
-- [ ] تقویت یا تعویض موتورها
-- [ ] راه اندازی سنسور EMG
 
+- [ ] طراحی مکانیکی جدید
+- [ ] بهینه‌سازی مدار الکتریکی
+- [ ] بهینه‌سازی الگوریتم کنترل
+- [ ] ادغام با هوش مصنوعی (AI Integration)
+- [ ] تعویض سروو موتور‌ها
+- [ ] تعویض سنسور EMG
+- [ ] پیاده‌سازی کنترل مستقل هر انگشت (Individual Finger Control)
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ## 🛠️ Tools / ابزار‌ها
