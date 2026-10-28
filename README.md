@@ -110,11 +110,11 @@ All mechanical, electronic, and software components are designed and built by th
 </p>
 
 <p align="center">
-  <b>🔥 Made with ❤️</b>
-  <br/>
-  <b>ساخته شده برای کمک به بشریت</b>
+  <b> Made with ❤️</b>
   <br/><br/>
   <sub>© 2026 NOVA Team • SynF-X Project</sub>
   <br/>
-  <sub>Last Updated: Jun 2026 | v0.8.3 - Alpha | Status: 🚀 Under Development</sub>
+  <sub>Last Updated: October 28, 2026 | v1.0.0 - Release</sub>
+  <br/>
+  <sub>Status: ✅ Development Phase Completed</sub>
 </p>
