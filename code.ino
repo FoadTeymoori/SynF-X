@@ -195,7 +195,7 @@ void setup() {
 
 void loop() {
 
-
+//------------------------------کد سنسور و دست 
   display.clearDisplay();
   drawLeftPanel();
   display.display();
@@ -221,7 +221,7 @@ void loop() {
     servo3.write(0);
     servo4.write(0);
     servo5.write(0);
-
+  delay(1000);
   }
 
   delay(20);
